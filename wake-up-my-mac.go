@@ -54,7 +54,7 @@ func main() {
 	wake.WakeMe(c, p)
 
 	// counter count down
-	 s.Counter(c.Wait, "\tWaiting for " + strconv.FormatInt(int64(c.Wait), 10) + " seconds for the compter to wake up")
+	 s.Counter(c.Wait, "\tWaiting for " + strconv.FormatInt(int64(c.Wait), 10) + " seconds for the computer to wake up")
 
 	// add Hostname is it was set
 	if len(c.HostName) != 0 {
